@@ -19,7 +19,7 @@ include_directories( include ${catkin_INCLUDE_DIRS})
 # this line .
 
 add_executable(hogdetect hogdetect.cpp)#pentru detectie oameni
-target_link_libraries(hog2 ${catkin_LIBRARIES})
+target_link_libraries(hogdetect ${catkin_LIBRARIES})
 
 # Specify libraries against which to link . Again , this
 # line should be copied for each distinct executable in
