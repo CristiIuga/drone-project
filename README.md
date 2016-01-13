@@ -1,5 +1,6 @@
 # drone-project
 Real world person tracking application using Parrot ARDrone 2.0 
+DON'T FORGET about the site https://sites.google.com/site/iugacristi/:maybe you want a step by step timesheet of what I did, the problems I faced and the solutions and workarounds.
 #1
 There exists now a part of the code. This runs on Ubuntu and you also need ROS to make it work.
 For the ones acustomed to ROS, the source file hogdetect.cpp and the CMakeFile should be in the agitr file(i am saying this just for my case,other may change the names).The complete project directory is: workspace(give it whatever name you want)->src->agitr.
